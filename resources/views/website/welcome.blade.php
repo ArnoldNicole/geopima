@@ -45,7 +45,7 @@
                 <div class="col-md-6">
                     <div class="getting-started-info">
                         <p>Such investment has enabled Geopima Limited to take on complex and challenging projects to accommodate the varied surveying needs of our clients. Currently we are&nbsp;one of the leading land surveying firms, we hold an impressive track record in the provision of all types of surveying services in the whole Kwale County.<br><br></p>
-                    </div><a class="btn btn-outline-primary btn-lg" role="button" data-toggle="tooltip" data-bss-tooltip="" href="contact-us.html" title="Click to talk to one of us">Talk To Us</a>
+                    </div><a class="btn btn-outline-primary btn-lg" role="button" data-toggle="tooltip" data-bss-tooltip="" href="{{route('contact')}}" title="Click to talk to one of us">Talk To Us</a>
                 </div>
             </div>
         </div>

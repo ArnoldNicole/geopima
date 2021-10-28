@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - GEOPIMA</title>
+    <title> | GEOPIMA</title>
     <meta name="twitter:description" content="We provide all kinds of land surveying services which include: Land subdivisions, Title deed processing, Cadastral surveys, Land transfer,  identification and beaconing of the plot boundaries, engineering surveys, pipeline surveys, power line surveys, topographic surveys ,Hire and sale of Land survey equipment (RTK ,Total station, levels etc.) and consulting services to a wide range of clients, including multinational corporations, Contractors, Subcontractors, and government bodies. Geopima Limited has stayed abreast in technology by making hefty investments in robotic high-precision total stations with reflector less capabilities, GNSS receivers, and state of the art UAVs (unmanned aerial vehicles) equipment.
 &nbsp;
 ">
@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" id="top">
         <div class="container"><a class="navbar-brand logo" href="#">GEOPIMA</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
@@ -51,7 +51,7 @@
                 <div class="col-sm-3">
                     <h5>Get started</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="">Home</a></li>
                         <!-- <li><a href="#">Sign up</a></li>
                         <li><a href="#">Downloads</a></li> -->
                     </ul>
@@ -59,7 +59,7 @@
                 <div class="col-sm-3">
                     <h5>About us</h5>
                     <ul>
-                        <li><a href="#">Company Information</a></li>
+                        <li><a href="{{route('about')}}">Company Information</a></li>
                         <!-- <li><a href="#">Contact us</a></li>
                         <li><a href="#">Reviews</a></li> -->
                     </ul>
@@ -68,7 +68,7 @@
                     <h5>Support</h5>
                     <ul>
                         <!-- <li><a href="#">FAQ</a></li> -->
-                        <li><a href="#">Help desk</a></li>
+                        <li><a href="route('contact')">Help desk</a></li>
                         <!-- <li><a href="#">Forums</a></li> -->
                     </ul>
                 </div>
