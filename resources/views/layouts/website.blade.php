@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title> | GEOPIMA</title>
+    <title>{{strtoupper(Route::currentRouteName())}} | GEOPIMA</title>
     <meta name="twitter:description" content="We provide all kinds of land surveying services which include: Land subdivisions, Title deed processing, Cadastral surveys, Land transfer,  identification and beaconing of the plot boundaries, engineering surveys, pipeline surveys, power line surveys, topographic surveys ,Hire and sale of Land survey equipment (RTK ,Total station, levels etc.) and consulting services to a wide range of clients, including multinational corporations, Contractors, Subcontractors, and government bodies. Geopima Limited has stayed abreast in technology by making hefty investments in robotic high-precision total stations with reflector less capabilities, GNSS receivers, and state of the art UAVs (unmanned aerial vehicles) equipment.
 &nbsp;
 ">
@@ -68,7 +68,7 @@
                     <h5>Support</h5>
                     <ul>
                         <!-- <li><a href="#">FAQ</a></li> -->
-                        <li><a href="route('contact')">Help desk</a></li>
+                        <li><a href="{{route('contact')}}">Help desk</a></li>
                         <!-- <li><a href="#">Forums</a></li> -->
                     </ul>
                 </div>
