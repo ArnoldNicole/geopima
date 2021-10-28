@@ -3,7 +3,7 @@
 @section('content')
 
 <main class="page landing-page">
-    <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/tech/image4.jpg&quot;);color:rgba(9, 162, 255, 0.85);">
+    <section class="clean-block clean-hero" style="color: rgba(9, 162, 255, 0.85);background: url(&quot;assets/img/geopima.png&quot;) repeat-x;background-size: cover;">
         <div class="text">
             <h2>GEOPIMA LTD
                 <div class="caption v-middle text-center">
