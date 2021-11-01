@@ -6,22 +6,26 @@
     <section class="clean-block clean-hero" style="color: rgba(9, 162, 255, 0.85);background: url(&quot;assets/img/geopima.png&quot;) repeat-x;background-size: cover;">
         <div class="text">
             <h2>GEOPIMA LTD</h2>
-            <h3 class="text-center">Don’t Go For Less, Get The Best</h3>
+            <h3 class="text-center">Don’t Go For Less,<br /> Get The Best</h3>
             <p>Geopima Company Limited Land Surveyors, is a fully professional surveying firm that was incorporated in 2018</p>
-            <div class="caption v-middle text-center">
-                <h1 class="cd-headline clip">
-                    <!-- <span class="blc"></span> -->
-                    <span class="cd-words-wrapper">
-                        <b class="is-visible">Don’t Go For Less.</b>
-                        <b> Get The Best.</b>
-                    </span>
-                </h1>
-            </div>
+            <!-- <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <div class="caption v-middle text-center">
+                        <h5 class="cd-headline clip">
+                            <span class="blc"></span>
+                            <span class="cd-words-wrapper">
+                                <b class="is-visible">Don’t Go For Less.</b>
+                                <b> Get The Best.</b>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+            </div> -->
             <a class="btn btn-outline-light btn-lg" role="button" href="{{route('about')}}">Learn How</a>
         </div>
     </section>
-    <section class="clean-block features m-4">
-        <div class="container">
+    <section class="clean-block features">
+        <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-md-6 feature-box">
                     <h2 class="text-center"><strong>MISSION</strong></h2>
