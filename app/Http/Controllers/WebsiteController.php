@@ -28,9 +28,10 @@ class WebsiteController extends Controller
     public function submit(Request $request)
     {
         $data =   $this->validate($request, [
-            "name" => "required|string|min:4|alpha",
+            "name" => "required|string|min:4|max:50",
             "subject" => "required|string|min:15",
             "email" => "required|email|max:255",
+            "phone_number" => "required|numeric|digits:10",
             "message" => "required|string|max:500",
             "security_quiz" => "required",
         ]);

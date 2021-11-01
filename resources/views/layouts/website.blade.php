@@ -51,7 +51,7 @@
                 <div class="col-sm-3">
                     <h5>Get started</h5>
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <!-- <li><a href="#">Sign up</a></li>
                         <li><a href="#">Downloads</a></li> -->
                     </ul>

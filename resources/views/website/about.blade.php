@@ -6,10 +6,10 @@
     <section class="clean-block about-us">
         <div class="container">
             <div class="block-heading">
-                <h2 class="text-info jello animated">About Us</h2>
+                <h2 class="text-info jello animated">About GEOPIMA COMPANY LTD.</h2>
                 <p class="flash animated">Geopima Company Limited Land Surveyors, is a fully professional surveying firm that was incorporated in 2018. The company has two directors, Humphrey Kubai and David Nyale. Currently the company has two assistant surveyors and subordinate staff.&nbsp;<br></p>
             </div>
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col-sm-6 col-lg-4">
                     <div class="card text-center clean-card"><img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar1.jpg">
                         <div class="card-body info">
@@ -28,14 +28,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <section class="article-dual-column">
             <div class="container">
                 <div class="row" style="margin: 0px;padding: 10px;">
                     <div class="col-md-10 offset-md-1" style="background: url(&quot;assets/img/minibus.jpeg&quot;);">
                         <div class="intro">
-                            <h1 class="text-center"><strong>What we do.</strong></h1><img class="img-fluid rubberBand animated" src="assets/img/geopima.png" loading="auto">
+                            <h1 class="text-center text-white"><strong>What we do.</strong></h1><img class="img-fluid rubberBand animated" src="assets/img/geopima.png" loading="auto">
                         </div>
                     </div>
                 </div>
@@ -43,9 +43,6 @@
         </section>
         <section class="clean-block features">
             <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">More about Geopima Ltd.</h2>
-                </div>
                 <div class="row justify-content-center">
                     <div class="col-md-5 feature-box"><i class="icon-location-pin icon"></i>
                         <h4>Land Surveying Services</h4>

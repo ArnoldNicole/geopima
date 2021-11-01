@@ -8,21 +8,21 @@
                 <h2 class="text-info">Contact Us</h2>
                 <p>Ask your questions, request quotations, let us help you; by filling the form below.</p>
                 @if(session()->has('success'))
-                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <strong>Success!</strong>{{session()->get('success')}}
+                    <strong>Success! </strong>{{session()->get('success')}}
                 </div>
                 @endif
                 @if(session()->has('error'))
-                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    <strong>Error!</strong>{{session()->get('error')}}
+                    <strong>Error! </strong>{{session()->get('error')}}
                 </div>
                 @endif
             </div>
@@ -38,7 +38,20 @@
                             <strong>{{$message}}</strong>
                         </div>
                         @enderror
-                    </label><input class="form-control @error('name') is-invalid @enderror" type="text" id="name" value="{{@old('name')}}" name="name" required></div>
+                    </label><input class="form-control @error('name') is-invalid @enderror" type="text" id="name" value="{{@old('name')}}" name="name" required autocomplete="phone_number">
+                </div>
+                <div class="form-group"><label for="phone_number">Phone Number
+                        @error('phone_number')
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                <span class="sr-only">Close</span>
+                            </button>
+                            <strong>{{$message}}</strong>
+                        </div>
+                        @enderror
+                    </label><input class="form-control @error('phone_number') is-invalid @enderror" type="text" placeholder="0XXXXXXXXX" value="{{@old('phone_number')}}" id="phone_number" name="phone_number" required>
+                </div>
                 <div class="form-group"><label for="subject">Subject
                         @error('subject')
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -50,7 +63,8 @@
                         </div>
                         @enderror
                     </label>
-                    <select class="form-control @error('subject') is-invalid  @enderror" type="text" id="subject" name="subject">
+                    <select class="form-control @error('subject') is-invalid  @enderror" type="text" id="subject" name="subject" required>
+                        <option value="" disabled>Select Desired Service</option>
                         <option value="I am interested in your mapping services">Mapping</option>
                         <option value="I am interested in  Boundaries Identification service">Boundaries Identification</option>
                         <option value="I am interested in your sub division of plots service">Sub division of plots</option>
@@ -70,7 +84,8 @@
                             <strong>{{$message}}</strong>
                         </div>
                         @enderror
-                    </label><input class="form-control @error('email') is-invalid @enderror" type="email" value="{{@old('email')}}" id="email" name="email" required></div>
+                    </label><input class="form-control @error('email') is-invalid @enderror" type="email" value="{{@old('email')}}" id="email" name="email" required>
+                </div>
                 <div class="form-group"><label for="message">Message
                         @error('message')
                         <div class="alert alert-danger alert-dismissible fade show" role="alert">
