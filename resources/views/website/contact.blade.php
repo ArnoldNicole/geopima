@@ -51,8 +51,8 @@
                         @enderror
                     </label>
                     <select class="form-control @error('subject') is-invalid  @enderror" type="text" id="subject" name="subject">
-                        <option value="I am interested in your mapping serices">Mapping</option>
-                        <option value="I am interested in  Boundaries Identification">Boundaries Identification</option>
+                        <option value="I am interested in your mapping services">Mapping</option>
+                        <option value="I am interested in  Boundaries Identification service">Boundaries Identification</option>
                         <option value="I am interested in your sub division of plots service">Sub division of plots</option>
                         <option value="I am interested in your parcel location service">{{strtolower('PARCEL LOCATION')}}</option>
                         <option value="I am interested in your rectifying poorly mapped features service">{{strtolower('RECTIFYING POORLY MAPPED FEATURES')}}</option>
@@ -85,7 +85,7 @@
                     {{@old('message')}}
                     </textarea></div>
                 <div class="form-group"><label for="security_quiz">Security Question: What is @php
-                        $a = random_int(0,9);
+                        $a = random_int(1,9);
                         $b = random_int(0,9);
                         $c = $a+$b;
 
