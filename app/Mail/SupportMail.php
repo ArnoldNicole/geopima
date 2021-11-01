@@ -29,6 +29,6 @@ class SupportMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('support_mail');
+        return $this->subject(ucwords($this->data['subject']))->markdown('support_mail');
     }
 }
