@@ -19,6 +19,6 @@ Route::get('/services', [App\Http\Controllers\WebsiteController::class, 'service
 Route::get('/contact', [App\Http\Controllers\WebsiteController::class, 'contact'])->name('contact');
 Route::post('/contact', [App\Http\Controllers\WebsiteController::class, 'submit'])->name('contact.send');
 
-Auth::routes(['register' => false]);
+// Auth::routes(['register' => false]);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

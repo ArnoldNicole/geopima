@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{strtoupper(Route::currentRouteName())}} | GEOPIMA</title>
-    <meta name="twitter:description" content="We provide all kinds of land surveying services which include: Land subdivisions, Title deed processing, Cadastral surveys, Land transfer,  identification and beaconing of the plot boundaries, engineering surveys, pipeline surveys, power line surveys, topographic surveys ,Hire and sale of Land survey equipment (RTK ,Total station, levels etc.) and consulting services to a wide range of clients, including multinational corporations, Contractors, Subcontractors, and government bodies. Geopima Limited has stayed abreast in technology by making hefty investments in robotic high-precision total stations with reflector less capabilities, GNSS receivers, and state of the art UAVs (unmanned aerial vehicles) equipment.
-&nbsp;
-">
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <meta name="twitter:image" content="assets/img/geopima.png">
     <meta property="og:image" content="assets/img/geopima.png">
     <meta name="description" content="Geopima Company Limited Land Surveyors, is a fully professional surveying firm that was incorporated in 2018.">
@@ -19,78 +21,305 @@
     <link rel="icon" type="image/png" sizes="482x493" href="assets/img/geopima.png">
     <link rel="icon" type="image/png" sizes="482x493" href="assets/img/geopima.png">
     <link rel="icon" type="image/png" sizes="482x493" href="assets/img/geopima.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <!-- CSS
+	============================================ -->
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,500,600,700,800&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/latest/assets/css/vendor/bootstrap.min.css">
+    <!-- Font-awesome CSS -->
+    <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
+    <!-- Slick slider css -->
+    <link rel="stylesheet" href="/latest/assets/css/plugins/slick.min.css">
+    <!-- Odometer css -->
+    <link rel="stylesheet" href="/latest/assets/css/plugins/odometer.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="/latest/assets/css/plugins/animate.css">
+    <!-- main style css -->
+    <link rel="stylesheet" href="/latest/assets/css/style.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" id="top">
-        <div class="container"><a class="navbar-brand logo" href="#">GEOPIMA</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{route('welcome')}}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{route('services')}}">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
-                </ul>
+    <!-- Start Header Area -->
+    <header class="header-area">
+        <div class="main-header d-none d-lg-block">
+            <!-- header top start -->
+            <div class="header-top theme-bg">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-sm-4">
+                            <div class="header-top-left text-center text-sm-left">
+                                Call us:<a href="tel:+254707151860" target="_blank"> +254707151860</a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-4">
+                        <div class="login-register text-center">
+                            <a href="#">Login/Register</a>
+                        </div>
+                    </div> -->
+                        <div class="col-sm-8">
+                            <div class="header-settings-bar d-flex justify-content-end">
+                                <div class="header-social-link text-center text-sm-right">
+                                    <a href="{{route('welcome')}}#"><i class="fa fa-facebook"></i></a>
+                                    <a href="{{route('welcome')}}#"><i class="fa fa-twitter"></i></a>
+                                    <a href="{{route('welcome')}}#"><i class="fa fa-instagram"></i></a>
+                                    <a href="{{route('welcome')}}#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- header top start -->
+
+            <!-- main menu start -->
+            <div class="main-menu-wrapper sticky header-transparent">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <!-- logo area start -->
+                            <div class="brand-logo">
+                                <a href="{{route('welcome')}}">
+                                    <img src="/assets/img/geopima_small.png" alt="brand logo">
+                                </a>
+                            </div>
+                            <!-- logo area end -->
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="main-menu-inner">
+                                <!-- main menu navbar start -->
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li class="{{Route::currentRouteName() == 'welcome' ? 'active' : ''}}"><a href="{{route('welcome')}}">Home</a></li>
+                                        <li class="{{Route::currentRouteName() == 'about' ? 'active' : ''}}"><a href="{{route('about')}}">About us</a></li>
+                                        <li class="{{Route::currentRouteName() == 'services' ? 'active' : ''}}"><a href="{{route('services')}}">Services</a></li>
+                                        <li class="{{Route::currentRouteName() == 'contact' ? 'active' : ''}}"><a href="{{route('contact')}}">Contact</a></li>
+                                        <li class="{{Route::currentRouteName() == 'faqs' ? 'active' : ''}}"><a href="{{route('welcome')}}#"> F.A.Qs </a></li>
+                                    </ul>
+                                </nav>
+                                <!-- main menu navbar end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main menu end -->
         </div>
-    </nav>
+
+        <!-- mobile header start -->
+        <!-- mobile header start -->
+        <div class="mobile-header d-lg-none d-md-block sticky">
+            <!--mobile header top start -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="mobile-main-header">
+                            <div class="mobile-logo">
+                                <a href="{{route('welcome')}}">
+                                    <img src="/assets/img/geopima_small.png" alt="Brand Logo">
+                                </a>
+                            </div>
+                            <div class="mobile-menu-toggler">
+                                <button class="mobile-menu-btn">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile header top start -->
+        </div>
+        <!-- mobile header end -->
+        <!-- mobile header end -->
+
+        <!-- offcanvas mobile menu start -->
+        <!-- off-canvas menu start -->
+        <aside class="off-canvas-wrapper">
+            <div class="off-canvas-overlay"></div>
+            <div class="off-canvas-inner-content">
+                <div class="btn-close-off-canvas">
+                    <i class="fa fa-close"></i>
+                </div>
+
+                <div class="off-canvas-inner">
+                    <!-- search box start -->
+                    <!-- search box end -->
+
+                    <!-- mobile menu start -->
+                    <div class="mobile-navigation">
+                        <!-- mobile menu navigation start -->
+                        <nav>
+                            <ul class="mobile-menu">
+                                <li><a href="{{route('welcome')}}">Home</a></li>
+                                <li><a href="{{route('about')}}">About us</a></li>
+                                <li><a href="{{route('services')}}">Services</a></li>
+                                <li><a href="{{route('contact')}}">Contact us</a></li>
+                                <li><a href="{{route('welcome')}}#">F.A.Qs</a></li>
+                            </ul>
+                        </nav>
+                        <!-- mobile menu navigation end -->
+                    </div>
+                    <!-- mobile menu end -->
+
+
+                    <!-- offcanvas widget area start -->
+                    <div class="offcanvas-widget-area">
+                        <div class="off-canvas-contact-widget">
+                            <ul>
+                                <li><i class="fa fa-mobile"></i>
+                                    <a href="tel:+254707151860" target="_blank">+254707151860</a>
+                                </li>
+                                <li><i class="fa fa-envelope-o"></i>
+                                    <a href="mailto:support@geopima.com" target="_blank">support@geopima.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="off-canvas-social-widget">
+                            <a href="{{route('welcome')}}#"><i class="fa fa-facebook"></i></a>
+                            <a href="{{route('welcome')}}#"><i class="fa fa-twitter"></i></a>
+                            <a href="{{route('welcome')}}#"><i class="fa fa-pinterest-p"></i></a>
+                            <a href="{{route('welcome')}}#"><i class="fa fa-linkedin"></i></a>
+                            <a href="{{route('welcome')}}#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                    <!-- offcanvas widget area end -->
+                </div>
+            </div>
+        </aside>
+        <!-- off-canvas menu end -->
+        <!-- offcanvas mobile menu end -->
+
+    </header>
+    <!-- end Header Area -->
+
     @yield('content')
-    <footer class="page-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <!-- <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li> -->
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="{{route('about')}}">Company Information</a></li>
-                        <!-- <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li> -->
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <!-- <li><a href="#">FAQ</a></li> -->
-                        <li><a href="{{route('contact')}}">Help desk</a></li>
-                        <!-- <li><a href="#">Forums</a></li> -->
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
+    <!-- Scroll to top start -->
+    <div class="scroll-top not-visible">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- Scroll to Top End -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="footer-widget-area gray-bg section-padding pb-125">
+            <div class="container">
+                <div class="row mtn-40">
+                    <div class="col-lg-3 col-md-6">
+                        <!-- footer single widget start -->
+                        <div class="footer-single-widget mt-40">
+                            <div class="widget-logo">
+                                <a href="/">
+                                    <img src="/assets/img/geopima_small.png" alt="">
+                                </a>
+                            </div>
+                            <div class="widget-body">
+                                <p class="desc">Do Not Go For Less, Get The Best</p>
+                                <ul class="contact-info">
+                                    <li><span>Address: </span> 56 Canon Awori Street, Kakamega, Kenya</li>
+                                    <li><span>Phone:</span> +254707151860 </li>
+                                    <li><span>Web:</span> support@geopima.com <br>www.geopima.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer single widget start -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- footer single widget start -->
+                        <div class="footer-single-widget mt-40">
+                            <h3 class="widget-title">Our Link</h3>
+                            <div class="widget-body">
+                                <ul class="useful-link">
+                                    <li><a href="{{route('welcome')}}">Home</a></li>
+                                    <li><a href="{{route('contact')}}">Support</a></li>
+                                    <li><a href="{{route('welcome')}}">About us</a></li>
+                                    <li><a href="{{route('welcome')}}">Services</a></li>
+                                    <li><a href="{{route('welcome')}}">More Info</a></li>
+                                    <li><a href="{{route('welcome')}}">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- footer single widget start -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- footer single widget start -->
+                        <div class="footer-single-widget mt-40">
+
+                        </div>
+                        <!-- footer single widget start -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- footer single widget start -->
+                        <div class="footer-single-widget mt-40">
+                            <h3 class="widget-title">Newsletter</h3>
+                            <div class="widget-body news-subtitle">
+                                <p class="desc">Subscribe our Newsletter and become the first to hear our offers</p>
+                                <p><b>To get all latest update and news Subscribe our newsletter now!</b></p>
+                                <div class="newsletter-inner">
+                                    <form id="mc-form">
+                                        <input type="email" class="news-field" id="mc-email" autocomplete="off" placeholder="Enter your email here">
+                                        <button class="btn btn-all" id="mc-submit">Subscribe</button>
+                                    </form>
+                                    <!-- mailchimp-alerts Start -->
+                                    <div class="mailchimp-alerts">
+                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                        <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                                        <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                                    </div>
+                                    <!-- mailchimp-alerts end -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- footer single widget start -->
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <p>© {{\Carbon\Carbon::now()->year}} GEOPIMA LTD</p>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright-text text-center">
+                    <p>&copy; {{\Carbon\Carbon::now()->year}} <b>GEOPIMA</b> Made with <i class="fa fa-heart text-danger"></i> <a href=""><b></b></a></p>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <!-- footer section end -->
+
+    <!-- JS
+============================================ -->
+
+    <!-- Modernizer JS -->
+    <script src="/latest/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="/latest/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- Popper JS -->
+    <script src="/latest/assets/js/vendor/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/latest/assets/js/vendor/bootstrap.min.js"></script>
+    <!-- wow js -->
+    <script src="/latest/assets/js/plugins/wow.min.js"></script>
+    <!-- slick Slider JS -->
+    <script src="/latest/assets/js/plugins/slick.min.js"></script>
+    <!-- odometer js -->
+    <script src="/latest/assets/js/plugins/odometer.min.js"></script>
+    <!-- appear js -->
+    <script src="/latest/assets/js/plugins/appear.min.js"></script>
+    <!-- mailchimp active js -->
+    <script src="/latest/assets/js/plugins/ajaxchimp.js"></script>
+    <!-- waypoint js  -->
+    <script src="/latest/assets/js/plugins/waypoints.min.js"></script>
+    <!-- google map api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2D8wrWMY3XZnuHO6C31uq90JiuaFzGws"></script>
+    <!-- google map active js -->
+    <script src="/latest/assets/js/plugins/google-map.js"></script>
+    <!-- Main JS -->
+    <script src="/latest/assets/js/main.js"></script>
 </body>
 
 </html>
