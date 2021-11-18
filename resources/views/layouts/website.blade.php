@@ -315,9 +315,9 @@
     <!-- waypoint js  -->
     <script src="/latest/assets/js/plugins/waypoints.min.js"></script>
     <!-- google map api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2D8wrWMY3XZnuHO6C31uq90JiuaFzGws"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2D8wrWMY3XZnuHO6C31uq90JiuaFzGws"></script> -->
     <!-- google map active js -->
-    <script src="/latest/assets/js/plugins/google-map.js"></script>
+    <!-- <script src="/latest/assets/js/plugins/google-map.js"></script> -->
     <!-- Main JS -->
     <script src="/latest/assets/js/main.js"></script>
 </body>

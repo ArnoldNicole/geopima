@@ -2,7 +2,7 @@ $.fn.elExists = function () {
     return this.length > 0;
 };
 
-var myCenter = new google.maps.LatLng(0.2847443, 34.7630199);
+var myCenter = new google.maps.LatLng(-4.1745995, 39.453622);
 function initialize() {
     var mapProp = {
         center: myCenter,

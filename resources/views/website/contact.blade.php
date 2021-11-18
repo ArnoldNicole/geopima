@@ -5,7 +5,28 @@
 
     <!-- google map start -->
     <div class="map-area">
-        <div id="google-map"></div>
+        <div id="google-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="779" height="288" id="gmap_canvas" src="https://maps.google.com/maps?q=Behind%20Equity%20Bank,%20Kwale%20-%20Kinango%20Road&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-org.net">123movies cobra kai</a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 288px;
+                            width: 779px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 288px;
+                            width: 779px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- google map end -->
 
