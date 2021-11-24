@@ -12,7 +12,8 @@
                         <div class="row align-items-center">
                             <div class="col-xl-5 col-sm-6">
                                 <div class="hero-slider-content">
-                                    <h1 class="slide-title">Do Not Go For Less, Get The Best</h1>
+                                    <h1 class="slide-title">GEOPIMA L.T.D</h1>
+                                     <h4>Do Not Go For Less, Get The Best</h4>
                                     <a href="#policy-area" class="btn btn-hero">Read More</a>
                                 </div>
                             </div>
