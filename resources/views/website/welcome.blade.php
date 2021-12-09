@@ -64,7 +64,7 @@
                     <div class="blog-item mt-40">
                         <div class="blog-thumb">
                             <a href="blog-details.html">
-                                <img src="/latest/assets/img/mission.png" alt="blog thumb">
+                                <img src="/assets/img/mission.png" alt="blog thumb">
                             </a>
                         </div>
                         <div class="blog-content">
@@ -83,7 +83,7 @@
                     <div class="blog-item mt-40">
                         <div class="blog-thumb">
                             <a href="blog-details.html">
-                                <img src="/latest/assets/img/vision.png" alt="blog thumb">
+                                <img src="/assets/img/vision.png" alt="blog thumb">
                             </a>
                         </div>
                         <div class="blog-content">
