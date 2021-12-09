@@ -99,7 +99,7 @@
                         <p>You can alternatively use our contact details below. ur Support team will get back to you as soon as possible.
                         </p>
                         <ul>
-                            <li><i class="fa fa-fax"></i> Address : Kwale, Kinangop Road Behind Equity Bank, Kenya</li>
+                            <li><i class="fa fa-fax"></i> Address : Kwale, Kinango Road Behind Equity Bank, Kenya</li>
                             <li><i class="fa fa-envelope-o"></i> E-mail: support@geopima.com</li>
                             <li><i class="fa fa-phone"></i> +88013245657</li>
                         </ul>

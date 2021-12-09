@@ -219,7 +219,7 @@
                             <div class="widget-body">
                                 <p class="desc">Do Not Go For Less, Get The Best</p>
                                 <ul class="contact-info">
-                                    <li><span>Address: </span>Kwale, Kinangop Road Behind Equity Bank, Kenya</li>
+                                    <li><span>Address: </span>Kwale, Kinango Road Behind Equity Bank, Kenya</li>
                                     <li><span>Phone:</span> +254707151860 </li>
                                     <li><span>Web:</span> support@geopima.com <br>www.geopima.com</li>
                                 </ul>
