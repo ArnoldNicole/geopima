@@ -63,8 +63,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-item mt-40">
                         <div class="blog-thumb">
-                            <a href="blog-details.html">
-                                <img src="/assets/img/mission.png" alt="blog thumb">
+                            <a href="#">
+                                <img src="/assets/img/mission.png" height="100px" width="100px" alt="blog thumb" class="rounded-circle">
                             </a>
                         </div>
                         <div class="blog-content">
@@ -82,8 +82,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-item mt-40">
                         <div class="blog-thumb">
-                            <a href="blog-details.html">
-                                <img src="/assets/img/vision.png" alt="blog thumb">
+                            <a href="#">
+                                <img src="/assets/img/vision.png" height="100px" width="100px" alt="blog thumb" class="rounded-circle">
                             </a>
                         </div>
                         <div class="blog-content">
