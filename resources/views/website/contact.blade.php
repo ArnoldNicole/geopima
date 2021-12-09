@@ -100,8 +100,8 @@
                         </p>
                         <ul>
                             <li><i class="fa fa-fax"></i> Address : Kwale, Kinango Road Behind Equity Bank, Kenya</li>
-                            <li><i class="fa fa-envelope-o"></i> E-mail: support@geopima.com</li>
-                            <li><i class="fa fa-phone"></i> +88013245657</li>
+                            <li><i class="fa fa-envelope-o"></i> E-mail: <a href="mail:support@geopima.com" target="_blank">support@geopima.com</a></li>
+                            <li><i class="fa fa-phone"></i><a href="tel:+254729793626" target="_blank">+254729793626 </a></li>
                         </ul>
                     </div>
                 </div>
