@@ -12,14 +12,14 @@
                         <div class="row align-items-center">
                             <div class="col-xl-5 col-sm-6">
                                 <div class="hero-slider-content">
-                                    <h1 class="slide-title">GEOPIMA L.T.D</h1>
-                                     <h4>Do Not Go For Less, Get The Best</h4>
+                                    <h1 class="slide-title">GEOPIMA Limited</h1>
+                                    <h4>Do Not Go For Less, Get The Best</h4>
                                     <a href="#policy-area" class="btn btn-hero">Read More</a>
                                 </div>
                             </div>
                             <div class="col-xl-7 col-sm-6">
                                 <div class="slider-thumb moving-vertical">
-                                    <img src="/assets/img/mapping.jpg">
+                                    <img src="/assets/img/geopima.png">
                                 </div>
                             </div>
                         </div>

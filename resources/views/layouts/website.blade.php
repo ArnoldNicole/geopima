@@ -95,7 +95,7 @@
                                         <li class="{{Route::currentRouteName() == 'about' ? 'active' : ''}}"><a href="{{route('about')}}">About us</a></li>
                                         <li class="{{Route::currentRouteName() == 'services' ? 'active' : ''}}"><a href="{{route('services')}}">Services</a></li>
                                         <li class="{{Route::currentRouteName() == 'contact' ? 'active' : ''}}"><a href="{{route('contact')}}">Contact</a></li>
-                                        <li class="{{Route::currentRouteName() == 'faqs' ? 'active' : ''}}"><a href="{{route('welcome')}}#"> F.A.Qs </a></li>
+                                        <!-- <li class="{{Route::currentRouteName() == 'faqs' ? 'active' : ''}}"><a href="{{route('welcome')}}#"> F.A.Qs </a></li> -->
                                     </ul>
                                 </nav>
                                 <!-- main menu navbar end -->
@@ -219,7 +219,7 @@
                             <div class="widget-body">
                                 <p class="desc">Do Not Go For Less, Get The Best</p>
                                 <ul class="contact-info">
-                                    <li><span>Address: </span> 56 Canon Awori Street, Kakamega, Kenya</li>
+                                    <li><span>Address: </span>Kwale, Kinangop Road Behind Equity Bank, Kenya</li>
                                     <li><span>Phone:</span> +254707151860 </li>
                                     <li><span>Web:</span> support@geopima.com <br>www.geopima.com</li>
                                 </ul>

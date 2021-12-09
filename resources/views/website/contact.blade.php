@@ -2,37 +2,16 @@
 
 @section('content')
 <main>
-
-    <!-- google map start -->
-    <div class="map-area">
-        <div id="google-map">
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="779" height="288" id="gmap_canvas" src="https://maps.google.com/maps?q=Behind%20Equity%20Bank,%20Kwale%20-%20Kinango%20Road&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-org.net">123movies cobra kai</a><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 288px;
-                            width: 779px;
-                        }
-                    </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 288px;
-                            width: 779px;
-                        }
-                    </style>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- google map end -->
-
     <!-- contact area start -->
     <div class="contact-area section-padding">
         <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 order-2 order-lg-1">
+
+                    <iframe width="100%" height="300px" src="https://maps.google.com/maps?q=Behind%20Equity%20Bank,%20Kwale%20-%20Kinango%20Road&t=&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
+
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="contact-message">
@@ -120,7 +99,7 @@
                         <p>You can alternatively use our contact details below. ur Support team will get back to you as soon as possible.
                         </p>
                         <ul>
-                            <li><i class="fa fa-fax"></i> Address : No 40 Canon Awori Sreet 133/2 Kakamega City</li>
+                            <li><i class="fa fa-fax"></i> Address : Kwale, Kinangop Road Behind Equity Bank, Kenya</li>
                             <li><i class="fa fa-envelope-o"></i> E-mail: support@geopima.com</li>
                             <li><i class="fa fa-phone"></i> +88013245657</li>
                         </ul>
