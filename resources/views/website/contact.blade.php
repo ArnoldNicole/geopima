@@ -8,8 +8,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12 order-2 order-lg-1">
 
-                    <iframe width="100%" height="300px" src="https://maps.google.com/maps?q=Behind%20Equity%20Bank,%20Kwale%20-%20Kinango%20Road&t=&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
-
+                    <!-- <iframe width="100%" height="300px" src="https://maps.google.com/maps?q=Behind%20Equity%20Bank,%20Kwale%20-%20Kinango%20Road&t=&z=17&ie=UTF8&iwloc=&output=embed"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.6217526912238!2d39.45357951292053!3d-4.174587143883348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x432bb17d8bc8bcf8!2zNMKwMTAnMjguNiJTIDM5wrAyNycxMy4wIkU!5e1!3m2!1sen!2ske!4v1639213003599!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="row">
