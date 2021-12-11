@@ -230,7 +230,7 @@
                         <div class="service-icon">
                             <img src="/latest/assets/img/icon/5.png" alt="service icon">
                             <h3 class="service-title"><a href="service-details.html">Training</a></h3>
-                            <p>Ideas es to obtain pain of itself, because it is pain, but because occasionallyght ocean</p>
+                            <p>The company gives adequate on job training to its employees to keep them updated with the current trends in technology for the best output</p>
                         </div>
                     </div>
                     <div class="service-item mt-65">
@@ -274,7 +274,7 @@
                 <div class="col-xl-6 col-lg-7 offset-xl-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="cta-wrapper">
                         <h2 class="h1 title">Have <span>Business</span> Problems? <br> Just dial us with no <span>hesitaion</span><br> we have <span>expert</span> team</h2>
-                        <a href="tel:+254707151860" target="_blank" class="call">+254707151860</a>
+                        <a href="tel:+254729793626" class="call">+254( 729)793 626</a>
                         <img src="/latest/assets/img/cta/cta.png" class="cta-thumb moving-vertical w-100" alt="cta thumb">
                     </div>
                 </div>
@@ -378,7 +378,7 @@
 
 
     <!-- brand logo section start -->
-    <section class="brand-logo-wrapper section-padding fix wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+    <!-- <section class="brand-logo-wrapper section-padding fix wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -413,7 +413,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- brand logo section end -->
 </main>
 

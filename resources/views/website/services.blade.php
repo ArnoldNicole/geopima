@@ -128,7 +128,7 @@
                 <div class="col-xl-6 col-lg-7 offset-xl-1">
                     <div class="cta-wrapper">
                         <h2 class="h1 title">Have <span>Land Surveying</span> Problems? <br> Just dial us with no <span>hesitaion</span><br> we have <span>expert</span> team</h2>
-                        <a href="tel:+98564857652" class="call">+98564 857 652</a>
+                        <a href="tel:+254729793626" class="call">+254( 729)793 626</a>
                         <img src="/latest/assets/img/cta/cta.png" class="cta-thumb moving-vertical w-100" alt="cta thumb">
                     </div>
                 </div>

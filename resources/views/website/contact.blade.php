@@ -96,12 +96,12 @@
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="contact-information">
                         <h2 class="h1 title contact-title">Contact Us</h2>
-                        <p>You can alternatively use our contact details below. ur Support team will get back to you as soon as possible.
+                        <p>You can alternatively use our contact details below. Our Support team will get back to you as soon as possible.
                         </p>
                         <ul>
                             <li><i class="fa fa-fax"></i> Address : Kwale, Kinango Road Behind Equity Bank, Kenya</li>
                             <li><i class="fa fa-envelope-o"></i> E-mail: <a href="mailto:support@geopima.com" target="_blank">support@geopima.com</a></li>
-                            <li><i class="fa fa-phone"></i><a href="tel:+254729793626" target="_blank">+254729793626 </a></li>
+                            <li><i class="fa fa-phone"></i>Phone:<a href="tel:+254729793626" target="_blank">+254729793626 </a></li>
                         </ul>
                     </div>
                 </div>

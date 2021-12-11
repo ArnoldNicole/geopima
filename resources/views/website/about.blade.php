@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-6 offset-lg-1 order-1 order-lg-2">
                     <div class="about-thumb">
-                        <img src="/latest/assets/img/about/about-1.png" class="moving-vertical" alt="about thumb">
+                        <img src="/latest/assets/img/about/about-3.png" class="moving-vertical" alt="about thumb">
                     </div>
                 </div>
             </div>

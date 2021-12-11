@@ -40,7 +40,7 @@
 
 </head>
 
-<body>
+<body class="container-fluid">
     <!-- Start Header Area -->
     <header class="header-area">
         <div class="main-header d-none d-lg-block">
@@ -158,7 +158,7 @@
                                 <li><a href="{{route('about')}}">About us</a></li>
                                 <li><a href="{{route('services')}}">Services</a></li>
                                 <li><a href="{{route('contact')}}">Contact us</a></li>
-                                <li><a href="{{route('welcome')}}#">F.A.Qs</a></li>
+                                <!-- <li><a href="{{route('welcome')}}#">F.A.Qs</a></li> -->
                             </ul>
                         </nav>
                         <!-- mobile menu navigation end -->
@@ -211,7 +211,7 @@
                     <div class="col-lg-3 col-md-6">
                         <!-- footer single widget start -->
                         <div class="footer-single-widget mt-40">
-                            <div class="widget-logo">
+                            <div class="widget-logo widget-title">
                                 <a href="/">
                                     <img src="/assets/img/geopima_small.png" alt="">
                                 </a>
@@ -219,9 +219,11 @@
                             <div class="widget-body">
                                 <p class="desc">Do Not Go For Less, Get The Best</p>
                                 <ul class="contact-info">
-                                    <li><span>Address: </span>Kwale, Kinango Road Behind Equity Bank, Kenya</li>
-                                    <li><span>Phone:</span> <a href="tel:+254729793626" target="_blank">+254729793626 </a> </li>
-                                    <li><span>Web:</span> support@geopima.com <br>www.geopima.com</li>
+                                    <li><span>Address: </span> <a href="https://maps.google.com/maps?q=-4.1745995%2C39.453622&z=17&hl=en" target="_BLANK">Kwale, Kinango Road Behind Equity Bank, Kenya </a></li>
+                                    <li><span>Phone:</span> <a href="tel:+254729793626" class="call">+254( 729)793 626</a></li>
+                                    <li><span>Web:</span>
+                                        <a href="mailto:support@geopima.com">www.geopima.com</a> <br>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -231,15 +233,13 @@
                     <div class="col-lg-3 col-md-6">
                         <!-- footer single widget start -->
                         <div class="footer-single-widget mt-40">
-                            <h3 class="widget-title">Our Link</h3>
+                            <h3 class="widget-title">Our Links</h3>
                             <div class="widget-body">
                                 <ul class="useful-link">
                                     <li><a href="{{route('welcome')}}">Home</a></li>
                                     <li><a href="{{route('contact')}}">Support</a></li>
-                                    <li><a href="{{route('welcome')}}">About us</a></li>
-                                    <li><a href="{{route('welcome')}}">Services</a></li>
-                                    <li><a href="{{route('welcome')}}">More Info</a></li>
-                                    <li><a href="{{route('welcome')}}">Contact us</a></li>
+                                    <li><a href="{{route('about')}}">About us</a></li>
+                                    <li><a href="{{route('services')}}">Services</a></li>
                                 </ul>
                             </div>
                         </div>
