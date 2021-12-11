@@ -50,7 +50,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-sm-4">
                             <div class="header-top-left text-center text-sm-left">
-                                Call us:<a href="tel:+254707151860" target="_blank"> +254707151860</a>
+                                Call us:<a href="tel:+254707151860" target="_blank">+254( 729)793 626</a>
                             </div>
                         </div>
                         <!-- <div class="col-sm-4">
@@ -171,7 +171,7 @@
                         <div class="off-canvas-contact-widget">
                             <ul>
                                 <li><i class="fa fa-mobile"></i>
-                                    <a href="tel:+254707151860" target="_blank">+254707151860</a>
+                                    <a href="tel:+254729793626" target="_blank">+254707151860</a>
                                 </li>
                                 <li><i class="fa fa-envelope-o"></i>
                                     <a href="mailto:support@geopima.com" target="_blank">support@geopima.com</a>
