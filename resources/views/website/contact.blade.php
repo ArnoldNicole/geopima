@@ -101,7 +101,8 @@
                         <ul>
                             <li><i class="fa fa-fax"></i> Address : Kwale, Kinango Road Behind Equity Bank, Kenya</li>
                             <li><i class="fa fa-envelope-o"></i> E-mail: <a href="mailto:support@geopima.com" target="_blank">support@geopima.com</a></li>
-                            <li><i class="fa fa-phone"></i>Phone:<a href="tel:+254729793626" target="_blank">+254729793626 </a></li>
+                            <li><i class="fa fa-phone"></i>Phone:<a href="tel:+254729793626" target="_blank">+254(729)793 626 | David </a></li>
+                            <li><i class="fa fa-phone"></i>Phone:<a href="tel:+254707151860" target="_blank">+254 (707) 151 860 | Humphrey</a></li>
                         </ul>
                     </div>
                 </div>

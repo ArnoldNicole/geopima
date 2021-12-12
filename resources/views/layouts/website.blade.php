@@ -50,7 +50,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-sm-4">
                             <div class="header-top-left text-center text-sm-left">
-                                Call us:<a href="tel:+254707151860" target="_blank">+254( 729)793 626</a>
+                                Call us:<a href="tel:+254729793626" target="_blank">+254( 729)793 626 | David </a> <a href="tel:+254707151860" target="_blank">+254 (707) 151 860 | Humphrey</a>
                             </div>
                         </div>
                         <!-- <div class="col-sm-4">
@@ -171,7 +171,10 @@
                         <div class="off-canvas-contact-widget">
                             <ul>
                                 <li><i class="fa fa-mobile"></i>
-                                    <a href="tel:+254729793626" target="_blank">+254707151860</a>
+                                    <a href="tel:+254729793626" target="_blank">+254( 729)793 626 | David</a>
+                                </li>
+                                <li><i class="fa fa-mobile"></i>
+                                    <a href="tel:+254707151860" target="_blank">+254 (707) 151 860 | Humphrey </a>
                                 </li>
                                 <li><i class="fa fa-envelope-o"></i>
                                     <a href="mailto:support@geopima.com" target="_blank">support@geopima.com</a>
@@ -219,9 +222,10 @@
                             <div class="widget-body">
                                 <p class="desc">Do Not Go For Less, Get The Best</p>
                                 <ul class="contact-info">
-                                    <li><span>Address: </span> <a href="https://maps.google.com/maps?q=-4.1745995%2C39.453622&z=17&hl=en" target="_BLANK">Kwale, Kinango Road Behind Equity Bank, Kenya </a></li>
-                                    <li><span>Phone:</span> <a href="tel:+254729793626" class="call">+254( 729)793 626</a></li>
-                                    <li><span>Web:</span>
+                                    <li><span>Address: </span> <a href="https://maps.google.com/maps?q=-4.1745995%2C39.453622&z=17&hl=en" target="_blank">Kwale, Kinango Road Behind Equity Bank, Kenya </a></li>
+                                    <li><span>Phone:</span> <a href="tel:+254729793626" class="call" target="_blank">+254( 729)793 626 | David</a></li>
+                                    <li><span>Phone:</span><a href="tel:+254707151860" class="call" target="_blank">+254 (707) 151 860 | Humphrey</a> </li>
+                                    <li><span>Mail:</span>
                                         <a href="mailto:support@geopima.com">www.geopima.com</a> <br>
                                     </li>
                                 </ul>
