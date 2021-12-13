@@ -1,5 +1,42 @@
 @extends('layouts.website')
+@section('css')
+<style>
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
 
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .container:hover .image {
+        opacity: 0.3;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        background-color: #04AA6D;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+</style>
+@endsection
 @section('content')
 <main>
     <!-- hero slider section start -->
@@ -215,7 +252,12 @@
                 </div>
                 <div class="col-lg-6 order-3 order-lg-2">
                     <div class="servivce-middle-thumb mt-65 moving-vertical">
-                        <img src="/latest/assets/img/service/service.png" alt="service thumb">
+                        <img src="/latest/assets/img/service/service.png" class="image" alt="service thumb">
+                        <div class="middle">
+                            <div class="text">
+                                <caption>Preparation For Topographical Surveying</caption>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 order-2 order-lg-3 service-list-right">
@@ -369,8 +411,14 @@
                 </div>
                 <div class="col-xl-6 col-lg-7 offset-xl-1 order-1 order-lg-2 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="testimonial-thumb moving-vertical">
-                        <img src="/latest/assets/img/testimonial/testimonial.png" alt="testimonial thumb">
-                        <caption>Title Deed processing in progress</caption>
+                        <img src="/latest/assets/img/testimonial/testimonial.png" class="image" alt="testimonial thumb">
+
+                        <div class="middle">
+                            <div class="text">
+                                <caption>Title Deed processing in progress</caption>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

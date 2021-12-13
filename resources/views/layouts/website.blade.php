@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="/latest/assets/css/plugins/animate.css">
     <!-- main style css -->
     <link rel="stylesheet" href="/latest/assets/css/style.css">
-
+    @yield('css')
 </head>
 
 <body class="container-fluid">
