@@ -273,8 +273,9 @@
                 </div>
                 <div class="col-xl-6 col-lg-7 offset-xl-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="cta-wrapper">
-                        <h2 class="h1 title">Have <span>Business</span> Problems? <br> Just dial us with no <span>hesitaion</span><br> we have <span>expert</span> team</h2>
-                        <a href="tel:+254729793626" class="call">+254( 729)793 626</a>
+                        <h2 class="h1 title">Have <span>Surveying </span> needs? <br> Just dial us with no <span>hesitaion</span><br> we have <span>expert</span> team </h2>
+                        <a href="tel:+254729793626" class="call">+254( 729)793 626</a> <br>
+                        <a href="tel:+254707151860" class="call" target="_blank">+254 (707) 151 860 | Humphrey</a>
                         <img src="/latest/assets/img/cta/cta.png" class="cta-thumb moving-vertical w-100" alt="cta thumb">
                     </div>
                 </div>
@@ -330,9 +331,9 @@
                 <div class="col-xl-5 offset-xl-1 order-1 order-xl-2">
                     <div class="team-content about-inner ">
                         <h2 class="h1 title">We have <span>Creative</span> Team<br> <span>Discover</span> our experts</h2>
-                        <h3 class="subtitle">Create some exclusive way to solve our customer problems</h3>
-                        <p>labore et dolore magnam aliquam quaerat voluptatem. Ut enim <br> ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam</p>
-                        <a href="index.html#" class="btn btn-all">Let's Start</a>
+                        <h3 class="subtitle">We create exclusive ways to solve your surveying needs</h3>
+
+                        <a href="{{route('contact')}}" target="_blank" class="btn btn-all">Talk to us</a>
                     </div>
                 </div>
             </div>
@@ -369,6 +370,7 @@
                 <div class="col-xl-6 col-lg-7 offset-xl-1 order-1 order-lg-2 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                     <div class="testimonial-thumb moving-vertical">
                         <img src="/latest/assets/img/testimonial/testimonial.png" alt="testimonial thumb">
+                        <caption>Title Deed processing in progress</caption>
                     </div>
                 </div>
             </div>
