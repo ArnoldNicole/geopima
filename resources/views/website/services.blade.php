@@ -71,30 +71,30 @@
     <section class="funfacts-section gray-bg section-padding">
         <div class="container">
             <div class="row mtn-40">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="counterup-item mt-40">
-                        <span class="odometer h1" data-count="34"></span>
+                        <span class="odometer h1" data-count="115"></span>
                         <h5>Satisfied Clients</h5>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="counterup-item mt-40">
-                        <span class="odometer h1" data-count="54"></span>
+                        <span class="odometer h1" data-count="29"></span>
                         <h5>Completed Projects</h5>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="counterup-item mt-40">
-                        <span class="odometer h1" data-count="34"></span>
-                        <h5>Recoverd Plots</h5>
+                        <span class="odometer h1" data-count="30"></span>
+                        <h5>Recovered Plots</h5>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <!-- <div class="col-md-3 col-sm-6">
                     <div class="counterup-item mt-40">
-                        <span class="odometer h1" data-count="4 "></span>
+                        <span class="odometer h1" data-count="2"></span>
                         <h5>Awards Winning</h5>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
