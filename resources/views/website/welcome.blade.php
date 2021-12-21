@@ -327,7 +327,7 @@
     <!-- choose us & cta end -->
 
     <!-- team section start -->
-    <section class="team-wrapper team-wrapper--style_1 pt-0 section-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+    <!-- <section class="team-wrapper team-wrapper--style_1 pt-0 section-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 order-2 order-xl-1">
@@ -380,7 +380,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- team section end -->
 
     <!-- testimonial section start -->

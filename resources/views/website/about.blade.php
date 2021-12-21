@@ -66,7 +66,7 @@
     <!-- fun fact section end -->
 
     <!-- team section start -->
-    <section class="team-wrapper section-padding">
+    <!-- <section class="team-wrapper section-padding">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 order-2 order-xl-1">
@@ -113,13 +113,13 @@
                     <div class="team-content team-content--style_2 about-inner">
                         <h2 class="h1 title">We have an<span>Ambitious</span> Team<br> <span>Discover</span> our exerts</h2>
                         <h3 class="subtitle">Create some exclusive way to solve our customer problems</h3>
-                        <!-- <p>labore et dolore magnam aliquam quaerat voluptatem. Ut enim <br> ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam</p> -->
+                        <p>labore et dolore magnam aliquam quaerat voluptatem. Ut enim <br> ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam</p>
                         <a href="{{route('contact')}}" class="btn btn-all">Get Started</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- team section end -->
 
     <!-- service policy start -->
