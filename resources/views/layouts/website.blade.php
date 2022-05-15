@@ -93,6 +93,7 @@
                                     <ul>
                                         <li class="{{Route::currentRouteName() == 'welcome' ? 'active' : ''}}"><a href="{{route('welcome')}}">Home</a></li>
                                         <li class="{{Route::currentRouteName() == 'about' ? 'active' : ''}}"><a href="{{route('about')}}">About us</a></li>
+                                        <li class="{{Route::currentRouteName() == 'services' ? 'active' : ''}}"><a href="{{route('binshopsblog.index', 'en')}}">Blog</a></li>
                                         <li class="{{Route::currentRouteName() == 'services' ? 'active' : ''}}"><a href="{{route('services')}}">Services</a></li>
                                         <li class="{{Route::currentRouteName() == 'contact' ? 'active' : ''}}"><a href="{{route('contact')}}">Contact</a></li>
                                         <!-- <li class="{{Route::currentRouteName() == 'faqs' ? 'active' : ''}}"><a href="{{route('welcome')}}#"> F.A.Qs </a></li> -->
@@ -157,6 +158,7 @@
                                 <li><a href="{{route('welcome')}}">Home</a></li>
                                 <li><a href="{{route('about')}}">About us</a></li>
                                 <li><a href="{{route('services')}}">Services</a></li>
+                                <li><a href="{{route('binshopsblog.index', 'en')}}">Blog</a></li>
                                 <li><a href="{{route('contact')}}">Contact us</a></li>
                                 <!-- <li><a href="{{route('welcome')}}#">F.A.Qs</a></li> -->
                             </ul>
@@ -244,6 +246,7 @@
                                     <li><a href="{{route('contact')}}">Support</a></li>
                                     <li><a href="{{route('about')}}">About us</a></li>
                                     <li><a href="{{route('services')}}">Services</a></li>
+                                    <li><a href="{{route('binshopsblog.index', 'en')}}">Blog</a></li>
                                 </ul>
                             </div>
                         </div>

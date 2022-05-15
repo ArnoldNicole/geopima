@@ -22,3 +22,7 @@ Route::post('/contact', [App\Http\Controllers\WebsiteController::class, 'submit'
 // Auth::routes(['register' => false]);
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
