@@ -22,10 +22,10 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    @yield('blog-custom-css')
 </head>
 
-<body class="container">
+<body class="container-fluid">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,10 @@
 
             </ul>
             @if (config('binshopsblog.search.search_enabled') )
-            <form class="form-inline my-2 my-lg-0" method='get' action='{{route("binshopsblog.search", app('request')->get('locale'))}}'>
+            @php
+            $loc = 'en';
+            @endphp
+            <form class="form-inline my-2 my-lg-0" method='get' action='{{route("binshopsblog.search", $loc)}}'>
                 <input type='text' name='s' placeholder='Search...' class='form-control' value='{{\Request::get("s")}}'>
                 <input type='submit' value='Search' class='btn btn-primary m-2'>
             </form>

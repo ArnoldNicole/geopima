@@ -38,6 +38,7 @@
     <!-- main style css -->
     <link rel="stylesheet" href="/latest/assets/css/style.css">
     @yield('css')
+    @yield('blog-custom-css')
 </head>
 
 <body class="container-fluid">
@@ -53,11 +54,7 @@
                                 Call us:<a href="tel:+254729793626" target="_blank">+254( 729)793 626 | David </a> <a href="tel:+254707151860" target="_blank">+254 (707) 151 860 | Humphrey</a>
                             </div>
                         </div>
-                        <!-- <div class="col-sm-4">
-                        <div class="login-register text-center">
-                            <a href="#">Login/Register</a>
-                        </div>
-                    </div> -->
+
                         <div class="col-sm-8">
                             <div class="header-settings-bar d-flex justify-content-end">
                                 <div class="header-social-link text-center text-sm-right">
@@ -77,9 +74,10 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3">
                             <!-- logo area start -->
-                            <div class="brand-logo">
+                            <div class="brand-logo text-primary">
                                 <a href="{{route('welcome')}}">
                                     <img src="/assets/img/geopima_small.png" alt="brand logo">
+                                    <!-- <img src="/logo.svg" alt="brand logo"> -->
                                 </a>
                             </div>
                             <!-- logo area end -->
@@ -90,11 +88,11 @@
                                 <nav class="main-menu">
                                     <ul>
                                         <li class="{{Route::currentRouteName() == 'welcome' ? 'active' : ''}}"><a href="{{route('welcome')}}">Home</a></li>
-                                        <li class="{{Route::currentRouteName() == 'about' ? 'active' : ''}}"><a href="{{route('about')}}">About us</a></li>
-                                        <li class="{{Route::currentRouteName() == 'services' ? 'active' : ''}}"><a href="{{route('binshopsblog.index', 'en')}}">Blog</a></li>
-                                        <li class="{{Route::currentRouteName() == 'services' ? 'active' : ''}}"><a href="{{route('services')}}">Services</a></li>
-                                        <li class="{{Route::currentRouteName() == 'contact' ? 'active' : ''}}"><a href="{{route('contact')}}">Contact</a></li>
-                                        <!-- <li class="{{Route::currentRouteName() == 'faqs' ? 'active' : ''}}"><a href="{{route('welcome')}}#"> F.A.Qs </a></li> -->
+                                        <li class="{{Route::currentRouteName() == 'welcome' ? 'active' : ''}}"><a href="/en/blog">Blog</a></li>
+                                        <li class=""><a href="{{route('about')}}">About us</a></li>
+                                        @foreach($categories as $category)
+                                        <li><a href="{{$category->categoryTranslations[0]->url($locale)}}">{{$category->categoryTranslations[0]->category_name}}</a></li>
+                                        @endforeach
                                     </ul>
                                 </nav>
                                 <!-- main menu navbar end -->
@@ -155,10 +153,9 @@
                             <ul class="mobile-menu">
                                 <li><a href="{{route('welcome')}}">Home</a></li>
                                 <li><a href="{{route('about')}}">About us</a></li>
-                                <li><a href="{{route('services')}}">Services</a></li>
-                                <li><a href="{{route('binshopsblog.index', 'en')}}">Blog</a></li>
-                                <li><a href="{{route('contact')}}">Contact us</a></li>
-                                <!-- <li><a href="{{route('welcome')}}#">F.A.Qs</a></li> -->
+                                @foreach($categories as $category)
+                                <li><a href="{{$category->categoryTranslations[0]->url($locale)}}">About us</a></li>
+                                @endforeach
                             </ul>
                         </nav>
                         <!-- mobile menu navigation end -->
@@ -322,6 +319,7 @@
     <!-- <script src="/latest/assets/js/plugins/google-map.js"></script> -->
     <!-- Main JS -->
     <script src="/latest/assets/js/main.js"></script>
+    @yield('blog-custom-js')
 </body>
 
 </html>

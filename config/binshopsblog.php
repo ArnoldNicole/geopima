@@ -144,13 +144,13 @@ return [
         'auto_approve_comments' => true, // default: false
 
 
-        'save_user_id_if_logged_in' => true, // if user is logged in, should we save that user id? (if false it will always ask for an author name, which the commenter can provide
+        'save_user_id_if_logged_in' => false, // if user is logged in, should we save that user id? (if false it will always ask for an author name, which the commenter can provide
 
         'user_field_for_author_name' => "name", // what field on your User model should we use when echoing out the author name? By default this should be 'name', but maybe you have it set up to use 'username' etc.
 
         'ask_for_author_email' => true, // show 'author email' on the form ?
-        'require_author_email' => false, // require an email (make sure ask_for_author_email is true if you want to use this)
-        'ask_for_author_website' => true, // show 'author website' on the form, show the link when viewing the comment
+        'require_author_email' => true, // require an email (make sure ask_for_author_email is true if you want to use this)
+        'ask_for_author_website' => false, // show 'author website' on the form, show the link when viewing the comment
 
         'disqus' => [
 

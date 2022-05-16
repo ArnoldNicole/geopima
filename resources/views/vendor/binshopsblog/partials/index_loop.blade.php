@@ -2,30 +2,25 @@
 {{--See the guide on binshops.binshops.com for how to copy these files to your /resources/views/ directory--}}
 {{--https://binshops.binshops.com/laravel-blog-package--}}
 
-<div class="col-md-12">
-    <div class="blog-item">
 
-        <div class='text-center blog-image'>
-            <?= $post->image_tag("medium", true, ''); ?>
+<div class="col-lg-4 col-md-6">
+    <div class="blog-item mt-40">
+
+        <div class="blog-thumb">
+            <a href="{{$post->url($locale)}}">
+                <img src="{{$post->image_url()}}" height="100px" width="100px" class="rounded-circle">
+            </a>
         </div>
-        <div class="blog-inner-item">
-            <h3 class=''><a href='{{$post->url($locale)}}'>{{$post->title}}</a></h3>
-            <h5 class=''>{{$post->subtitle}}</h5>
 
+        <div class="blog-content">
+            <h3 class="blog-title">
+                <a href="{{$post->url($locale)}}">{{$post->title}}</a>
+            </h3>
             @if (config('binshopsblog.show_full_text_at_list'))
             <p>{!! $post->post_body_output() !!}</p>
             @else
-            <p>{!! mb_strimwidth($post->post_body_output(), 0, 400, "...") !!}</p>
+            <p>{!! mb_strimwidth($post->post_body_output(), 0, 600, "...") !!}</p>
             @endif
-
-            <div class="post-details-bottom">
-                <span class="light-text">Authored by: </span> {{$post->post->author->name}} <span class="light-text">Posted at: </span> {{date('d M Y ', strtotime($post->post->posted_at))}}
-            </div>
-            <div class='text-center'>
-                <a href="{{$post->url($locale)}}" class="btn btn-primary">View Post</a>
-            </div>
         </div>
     </div>
-
 </div>
-<hr>
